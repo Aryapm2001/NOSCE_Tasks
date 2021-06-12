@@ -1,0 +1,181 @@
+​ ​
+<!html doctype>
+<head>
+   	<meta charset="UTF-8">
+    <meta name="description" content="registration_page">
+    <meta name="keywords" content="HTML, CSS,">
+    <meta name="author" content="Arya">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registration form</title>
+	<style type="text/css">
+        *{
+        margin :0;
+         }
+         body {
+         background-image:url("C:/Users/HP/Downloads/photo-1536585806558-81c7ea4d393d.jpg");
+         background-position:auto; 
+         background-size:cover; 
+         background-repeat:no repeat; 
+         font-family:sans-serif; 
+         margin-top:40px; 
+         color:aliceblue; 
+         }
+         .reg{
+         width:300px;
+         background-color:rgb(0,0,0,0.6); 
+         top:4%;
+         left:650;
+         position:absolute;
+         Padding:20px;
+         border-radius:15px 15px 0px 0px;
+         }
+         .input_field{ 
+         width:270px; 
+         height:30px; 
+         margin-top:6px;
+         padding-left:10px; 
+         border:1px solid rgb(100,35,4);
+         border-radius:2px; 
+         display:flex;
+         }
+         .address{
+         width:270px;
+         height:65px;
+         margin-top:6px;
+         padding-left:10px;
+         border:1px solid rgb(100,35,4);
+         border-radius:2px;
+         display:flex; 
+         }
+         .register{
+         width:250px;
+         height:40px;
+         margin-top:10px;
+         padding-left:10px;
+         border:1px solid rgb(100,35,4);
+         border-radius:30px;
+         background-color: #f5d020;
+         background-image: linear-gradient(315deg, #f5d020 0%, #f53803 74%); 
+         font-size:16px;
+         font-weight:bold;  
+         font-family:arial,sans-serif;
+         }
+         h1{
+         color:#ff4500; 
+         } 
+	</style>	 
+</head>
+
+<body>
+	<div class="reg">
+	<h1><center>Register</center></h1><br>
+	<form action="C:/Users/HP/Downloads/5511d7938b94dff18bd07ed2ef7f3e6f.gif" method="post">
+	    <!---firest name--->
+        <label for="firstname"><b>First Name : </b></label>
+			 <input class="input_field" placeholder="Enter firstname here" type="text" name="firstname" pattern="[a-z]{1,15}"required><br><br>
+		<!---last name--->	
+		<label for="lastname"><b>Last Name : </b></label>
+			 <input class="input_field" placeholder="Enter lastname here" type="text" name="lastname"pattern="[a-z]{1,15}" required><br><br>
+		<!---email--->
+		<label for="email"><b>Email : </b></label>
+             <input type="text" placeholder="Enter email here" name="email"class="input_field" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"  required><br><br>
+	    <!---age--->
+		<label for="age"><b>Age : </b></label>
+			 <input  placeholder="Enter age here" type="text"class="input_field" name="Age" required min="1" max="90"><br><br>				
+		<!---address--->	
+		<label for="Address"><b>Address : </b></label>
+			 <textarea rows=" 5" cols="30" class="address"name="address" placeholder="Enter your address here..." required></textarea><br><br>	
+	    <!---gender--->	 
+		<label for="gender"><b>Gender : </b></label><br><br>
+             <input type="radio"  name="gender" class="gender" value="m">
+	    <label for="male"><b>Male </b></label>&nbsp;&nbsp;&nbsp;
+	         <input type="radio"  name="gender" class="gender" value="f">
+	    <label for="female"><b>Female </b></label><br><br><br>
+	    <!---dropdown--->
+		<label for="Qualification"><b>Qualification : </b></label>
+			 <select name="Select"class="input_field">
+				 <option value="BCA"  selected>BCA
+				 <option value="MCA" selected>MCA
+				 <option value="BSC Maths " selected>BSC Maths
+			</select><br><br>			
+        <!---date--->
+		<label for="Date"><b>Date of Birth : </b></label>
+             <input type="date" value="" class="input_field" required><br><br>
+        <!---select languages--->
+		<label for="Lnguage Known"><b> Lnguage Known : </b></label><br><br>
+             <input type="checkbox"  name="english" value="on" class="check">&nbsp;English&nbsp;
+             <input type="checkbox"  name="Malayalam" value="on"class="check">&nbsp;Malayalam&nbsp;
+             <input type="checkbox"  name="Hindi" value="on"class="check">&nbsp;Hindi<br><br><br>
+		<!---password--->
+		<label for="psw"><b>Password : </b></label>
+             <input type="password" class="input_field"placeholder="Enter Password" name="password" id="password" required><br><br>
+        <!---confirm password--->
+		<label for="psw-repeat"><b>Confirm Password : </b></label>
+             <input type="password"class="input_field" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat"pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters"required><br><br>
+		<!---submit--->
+			 <center><input  type="submit" class="register" name="create" value="Register"><br><br>
+			 <p>Already have an account? <a href="C:/Users/HP/Documents/NOSCE/login_external.html">Sign in</a>.</p><br
+	</div>
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

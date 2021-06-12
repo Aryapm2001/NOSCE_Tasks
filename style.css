@@ -1,0 +1,49 @@
+
+*{
+margin :0;
+}
+body {
+background-image:url("C:/Users/HP/Downloads/94-941306_beautiful-ocean-beach.jpg");/* Set text background image */
+background-position:center;/* Set position of the image  */
+background-size:cover;/* to specify the size of background images */
+font-family:arial,sans-serif;/* Set the font of a text */
+margin-top:40px; /*Set the top margin */
+}
+.login{
+width:500px;
+background-color:rgb(0,255,255,0.01);/* Set background color */
+top:50%;
+left:50;
+position:absolute;
+Padding:20px;
+text-align:center;
+border-radius:15px 15px 0px 0px;/* radius properties for rounded corners */
+}
+.box{
+width:410px;
+height:40px;
+margin-top:20px;
+padding-left:10px;/* to create space around an element's content from left */
+border:1px solid rgb(100,35,4);/* Defines a solid border and color */
+border-radius:14px;
+}
+.button{
+width:193px;
+height:40px;
+margin-top:20px;
+padding-left:10px;
+border:1px solid rgb(100,35,4);
+border-radius:30px;
+background-color: #60dfcd;
+background-image: linear-gradient(315deg, #60dfcd 0%, #1e9afe 74%);/* to set gradient color */
+text-align:center;
+font-size:16px;
+font-weight:bold;/*thickness of characters in text should be displayed */
+font-family:arial,sans-serif;
+}
+h1{
+color:black;/* set color to the h1 font size text */
+}
+
+
+

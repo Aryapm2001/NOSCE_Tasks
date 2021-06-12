@@ -1,0 +1,56 @@
+
+*{
+margin :0;
+}
+body {
+background-image:url("C:/Users/HP/Downloads/photo-1536585806558-81c7ea4d393d.jpg"); /* Set text background image */
+background-position:auto; /* Set position of the image  */
+background-size:cover; 
+background-repeat:no repeat; /* to specify the size of background images */
+font-family:sans-serif; /* Set the font of a text */
+margin-top:50px; /*Set the top margin */
+color:aliceblue; /* Set text color */
+}
+.reg{
+width:290px;
+background-color:rgb(0,0,0,0.6); /* Set background color */
+top:8%;
+left:650;
+position:absolute;
+Padding:20px;
+border-radius:15px 15px 0px 0px;
+}
+.input_field{ 
+width:270px; /* set width */
+height:30px; /* set height */
+margin-top:6px;
+padding-left:10px; /* to create space around an element's content from left */
+border:1px solid rgb(100,35,4);
+border-radius:2px; /* radius properties for rounded corners */
+display:flex;
+}
+.address{
+width:270px;
+height:65px;
+margin-top:6px;
+padding-left:10px;
+border:1px solid rgb(100,35,4); /* Defines a solid border and color */
+border-radius:2px;
+display:flex; /* Displays an element as a block-level flex container */
+}
+.register{
+width:250px;
+height:40px;
+margin-top:10px;
+padding-left:10px;
+border:1px solid rgb(100,35,4);
+border-radius:30px;
+background-color: #f5d020;
+background-image: linear-gradient(315deg, #f5d020 0%, #f53803 74%); /* to set gradient color */
+font-size:16px;
+font-weight:bold;  /*thickness of characters in text should be displayed */
+font-family:arial,sans-serif;
+}
+h1{
+color:#ff4500; /* set color to the h1 font size text */
+}
